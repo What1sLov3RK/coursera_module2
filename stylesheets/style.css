@@ -1,0 +1,86 @@
+#title_for_menu{
+    font-family: "Heiti SC" ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row{
+    width:100%;
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+        float:left;
+        width: 33.33%;
+        margin-left: 0px;
+    }
+    #title_for_menu{
+        margin-bottom:60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #title_for_menu{
+        margin-bottom:30px;
+    }
+    .col-md-6{
+        float:left;
+        width: 50%;
+    }
+
+    .col-md-12{
+        clear: left;
+        width:100%;
+    }
+}
+
+@media (max-width: 767px){
+    #title_for_menu{
+        margin-bottom:25px;
+    }
+    .col-xs-12{
+        float:left;
+        width: 100%;
+    }
+}
+
+.menu_option{
+    box-sizing: border-box;
+    background-color: moccasin;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0px 10px 20px 10px;
+    padding:0px 0px 0px 0px;
+}
+
+div.menu_option > div.menu_option_title{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "American Typewriter";
+    width: 30%;
+    box-sizing: border-box;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    margin: 0px 2px 10px 70%;
+}
+
+div.menu_option > div.chicken_title{
+    background-color: lightcoral;
+}
+
+div.menu_option > div.beef_title{
+    background-color: red;
+    color: white;
+}
+
+div.menu_option > div.sushi_title{
+    background-color: palegoldenrod;
+}
+
+div.menu_option > p{
+    margin: 0px 10px 5px 15px;
+    font-family: sans-serif;
+    font-weight: 450;
+}
